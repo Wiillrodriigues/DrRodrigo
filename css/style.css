@@ -102,7 +102,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Jost', sans-serif;
-    padding: 25px 15px;
+    padding: 20px 15px;
     font-size: 18px;
     color: var(--dark);
     outline: none;
@@ -342,3 +342,5 @@ h6,
         min-height: 300px; /* Ajuste a altura conforme necessário */
     }
 }
+
+
