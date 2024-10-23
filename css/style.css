@@ -102,7 +102,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Jost', sans-serif;
-    padding: 35px 15px;
+    padding: 25px 15px;
     font-size: 18px;
     color: var(--dark);
     outline: none;
@@ -322,4 +322,23 @@ h6,
 .testimonial-carousel .owl-item img {
     width: 120px;
     height: 120px;
+}
+
+
+
+/* Aumenta o espaçamento das letras no botão "Entre em Contato" */
+.btn-primary {
+    letter-spacing: 1px; /* Ajuste o espaçamento conforme necessário */
+}
+
+/* Ajusta o padding do botão */
+.btn-primary i {
+    margin-right: 5px; /* Aumenta o espaço entre o ícone e o texto */
+}
+
+/* Ajusta o tamanho do quadrado do horário de atendimento */
+@media (max-width: 768px) {
+    .col-lg-5 {
+        min-height: 300px; /* Ajuste a altura conforme necessário */
+    }
 }
